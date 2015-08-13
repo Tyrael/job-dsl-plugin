@@ -3,4 +3,4 @@ jdk:
   - oraclejdk7
   - oraclejdk8
 after_failure:
-  - ./gradlew clean check --debug
+  - ./gradlew clean check --info --stacktrace
